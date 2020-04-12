@@ -1,4 +1,4 @@
-import {Client, Options, ChatUserstate} from 'tmi.js';
+import { Client, Options, ChatUserstate } from 'tmi.js';
 
 const options: Options = {
   identity: {
