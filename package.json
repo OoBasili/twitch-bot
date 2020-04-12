@@ -5,7 +5,9 @@
   "scripts": {
     "watch": "tsc -w",
     "build": "tsc",
-    "start": "node ./build/index.js"
+    "start": "node ./build/index.js",
+    "eslint": "eslint --cache --ext .js,.jsx,.ts,.tsx src",
+    "eslint:dump": "eslint --print-config ./.eslintrc.json"
   },
   "repository": "https://github.com/OoBasili/twitch-bot.git",
   "author": "Romanov Vasiliy <vasilok11@gmail.com>",
@@ -13,6 +15,9 @@
   "devDependencies": {
     "@types/node": "^13.11.1",
     "@types/tmi.js": "^1.4.0",
+    "@typescript-eslint/eslint-plugin": "^2.27.0",
+    "@typescript-eslint/parser": "^2.27.0",
+    "eslint": "^6.8.0",
     "typescript": "^3.8.3"
   },
   "dependencies": {
